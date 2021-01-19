@@ -1,6 +1,40 @@
+body {
+    background-color: black;
+    color:blanchedalmond;
+}
+
+form{
+    padding:10px;
+    border: solid 2px grey;
+    display: inline-block;
+}
+
+.rows{
+    padding: 0px;
+}
+
+input{
+    height: 60px;
+    width: 260px;
+}
+
+button {
+    border-radius: 5px;
+    margin: 2px;
+    padding: 0;
+    height: 60px;
+    width: 60px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
 .js--wp-1{
     opacity: .02;
 }
+
 
 .js--wp-1.animate__animated {
     opacity: 1;
