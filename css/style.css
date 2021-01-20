@@ -4,9 +4,15 @@ body {
 }
 
 form{
+    background-color: blanchedalmond;
     padding:10px;
     border: solid 2px grey;
     display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .rows{
@@ -14,16 +20,24 @@ form{
 }
 
 input{
+    margin: 1px;
     height: 60px;
     width: 260px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 button {
-    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #888888;
+    background-color: burlywood;
     margin: 2px;
     padding: 0;
     height: 60px;
     width: 60px;
+    border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
