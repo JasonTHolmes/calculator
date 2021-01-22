@@ -1,10 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
+    width: 100vh;
+    height: 100vh;
     background-color: black;
     color:blanchedalmond;
 }
 
+h1 {
+    margin: 10px;
+}
+
 form{
-    background-color: blanchedalmond;
+    margin: 30% 30%;
+    background-color: rgb(0, 128, 128);
     padding:10px;
     border: solid 2px grey;
     display: inline-block;
@@ -15,11 +26,16 @@ form{
     -o-border-radius: 5px;
 }
 
+
+
 .rows{
     padding: 0px;
 }
 
 input{
+    background-color: #e9c46a;
+    padding-left: 6px;
+    font-size: 30px;
     margin: 1px;
     height: 60px;
     width: 260px;
@@ -31,9 +47,9 @@ input{
 }
 
 button {
-    box-shadow: 1px 1px 1px 1px #888888;
-    background-color: burlywood;
-    margin: 2px;
+    box-shadow: 1px 1px 1px 1px #3a3a3a;
+    background-color: rgb(250, 128, 114);
+    margin: 2px 2px;
     padding: 0;
     height: 60px;
     width: 60px;
@@ -44,6 +60,16 @@ button {
     -o-border-radius: 5px;
 }
 
+.clear-sign{
+    width: 128px;
+}
+
+.equal-sign{
+    margin: -126px 8px 0px -0px;
+    height: 124px;
+    display: block;
+    float: right;
+}
 
 .js--wp-1{
     opacity: .02;
