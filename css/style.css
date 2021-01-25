@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     width: 100vh;
     height: 100vh;
@@ -25,8 +26,6 @@ form{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-
-
 
 .rows{
     padding: 0px;
@@ -74,7 +73,6 @@ button {
 .js--wp-1{
     opacity: .02;
 }
-
 
 .js--wp-1.animate__animated {
     opacity: 1;

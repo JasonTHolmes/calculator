@@ -12,52 +12,46 @@
     <header>
 <h1 class="js--wp-1 animate__animated animate__fadeIn">Calculator version 1.0</h1>
     </header>
+
         <div>
             <form class="calculator" name="calculator">
                 <input class="sum" type=" text" name="txt" readonly=" " value="6X9=42">
+                <div class="rows">
+                    <button class="num clear-sign" id="clear" value="">C</button>
+                    <button class="num" id="divide" value="">/</button>
+                    <button class="num" id="multiply" value="">X</button>
+                </div>
+            
+                <div class="rows">
+                    <button class="num" id="seven" value="">7</button>
+                    <button class="num" id="eight" value="">8</button>
+                    <button class="num" id="nine" value="">9</button>
+                    <button class="num" id="subtract" value="">-</button>
+                </div>
+            
+                <div class="rows">
+                    <button class="num" id="four" value="">4</button>
+                    <button class="num" id="five" value="">5</button>
+                    <button class="num" id="six" value="">6</button>
+                    <button class="num" id="addition" value="">+</button>
+                </div>
+            
+                <div class="rows">
+                    <button class="num" id="one" value="">1</button>
+                    <button class="num" id="two" value="">2</button>
+                    <button class="num" id="three" value="">3</button>
+                </div>
 
-                    <div class="rows">
-                        <button class="num clear-sign" id="clear" value="">C</button>
-                        <button class="num" id="divide" value="">/</button>
-                        <button class="num" id="multiply" value="">X</button>
-                    </div>
-                
-                    <div class="rows">
-                        <button class="num" id="seven" value="">7</button>
-                        <button class="num" id="eight" value="">8</button>
-                        <button class="num" id="nine" value="">9</button>
-                        <button class="num" id="subtract" value="">-</button>
-                    </div>
-                
-                    <div class="rows">
-                        <button class="num" id="four" value="">4</button>
-                        <button class="num" id="five" value="">5</button>
-                        <button class="num" id="six" value="">6</button>
-                        <button class="num" id="addition" value="">+</button>
-                    </div>
-                
-                    <div class="rows">
-                        <button class="num" id="one" value="">1</button>
-                        <button class="num" id="two" value="">2</button>
-                        <button class="num" id="three" value="">3</button>
-                        <!-- <button class="num equal-sign" name="" value="">=</button> -->
-                    </div>
+                <div class="rows">
+                    <button class="num" id="zero" value="">0</button>
+                    <button class="num" id="double-zero" value="">00</button>
+                    <button class="num" id="decimal" value="">.</button>
+                </div>
 
-                    <div class="rows">
-                        <button class="num" id="zero" value="">0</button>
-                        <button class="num" id="double-zero" value="">00</button>
-                        <button class="num" id="decimal" value="">.</button>
-                    </div>
-
-                    <div>
-                        <button class="num equal-sign" id="equal" value="">=</button>
-                    </div>
-
-                
-                
-                
-                
-                </form>
+                <div>
+                    <button class="num equal-sign" id="equal" value="">=</button>
+                </div>
+            </form>
         </div>
     <script src="js/script.js"></script>
 </body>
